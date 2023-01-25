@@ -1,0 +1,66 @@
+body {
+  background-color: powderblue;
+}
+
+p {
+  color: violet
+}
+
+h1 {
+  color: red;
+  font-size: 45px;
+  font-family: cursive;
+  text-align: justify;
+  text-align: center;
+  margin-bottom: 0px;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+h2 {
+  color: orange;
+  font-size: 30px;
+  font-family: fantasy;
+  margin-bottom: 0px;
+}
+
+h3 {
+  color: yellow;
+  font-size: 20px;
+  font-family: monospace;
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+small {
+  color: #37F000;
+  font-size: 16px;
+  font-family: helvetica;
+  text-align: right;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  margin-bottom: 0px;
+}
+
+h4 {
+  color: powderblue;
+  font-size: 16px;
+  text-align: right;
+}
+
+img {
+  transform: rotateZ(30deg);
+  transform: rotateY(40deg);
+}
+
+
+
+body {
+  background-image: url("https://i.ytimg.com/vi/qIWH-ArjdOM/maxresdefault.jpg");
+}
+
+@media only screen and (max-width:1400px){
+  body {
+    background-image: url("https://sadanduseless.b-cdn.net/wp-content/uploads/2021/05/frog-butts1.jpg");
+  }
+}
